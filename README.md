@@ -3,10 +3,11 @@
 This repository contains two microservices built with Spring Boot: "Client" and "Voiture" (French for "Client" and "Car").
 
 ## Installation
-To run these Spring Boot microservices, follow these steps:
-1. **Clone the Repository:**
+To run these Spring Boot microservices:
+**Clone the Repository:**
    
    git clone https://github.com/elbahjacharafeddine/app-microservices.git
+   
    cd app-microservices
 
 ## Screenshots
