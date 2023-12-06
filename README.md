@@ -1,19 +1,21 @@
 # app-microservices
 
-Description concise de votre projet.
+This repository contains two microservices built with Spring Boot: "Client" and "Voiture" (French for "Client" and "Car").
 
 ## Installation
+To run these Spring Boot microservices, follow these steps:
+1. **Clone the Repository:**
+   
+   git clone https://github.com/elbahjacharafeddine/app-microservices.git
+   cd app-microservices
 
-## Utilisation
+## Screenshots
+##### "Voiture" service database screenshot
+![PostgreSQL Database for Service-Voiture](./screens/database_postgres.png)
 
-## Captures d'écran
-##### capture pour database de service-voiture
-![DataBase postgresql Service-voiture](./screens/database_postgres.png)
+##### "Client" service database screenshot
+![MySQL Database for Service-Client](./screens/database_mysql.png)
 
-##### capture pour database de service-client
-![DataBase mysql Service-client](./screens/database_mysql.png)
-
-##### Http request
-![Http request](./screens/voiture_1.png)
-![Http request](./screens/voiture_2.png)
-
+##### HTTP Requests
+![HTTP Request](./screens/voiture_1.png)
+![HTTP Request](./screens/voiture_2.png)
