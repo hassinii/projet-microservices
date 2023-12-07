@@ -1,23 +1,27 @@
-# app-microservices
+# Projet de Microservices avec Spring Boot
 
-This repository contains two microservices built with Spring Boot: "Client" and "Car".
+Ce dépôt contient deux microservices construits avec Spring Boot : "Client" et "Voiture".
+
+## Architecture
+
+L'architecture du projet est basée sur le modèle de microservices, avec chaque service gérant une fonctionnalité spécifique.
+
+- **Service Client :** Gère les informations relatives aux clients.
+- **Service Voiture :** Gère les données liées aux voitures.
+
+## Technologies utilisées
+
+- Spring Boot
+- Base de données PostgreSQL (pour le service Voiture)
+- Base de données MySQL (pour le service Client)
 
 ## Installation
-To run these Spring Boot microservices:
 
-**Clone the Repository:**
+Pour exécuter ces microservices Spring Boot:
+
+**Clonez le dépôt :**
    
-   git clone https://github.com/elbahjacharafeddine/app-microservices.git
-   
-   cd app-microservices
+   ```bash
+   git clone https://github.com/hassinii/projet-microservices. git
+   cd projet-microservices
 
-## Screenshots
-##### "Voiture" service database screenshot
-![PostgreSQL Database for Service-Voiture](./screens/database_postgres.png)
-
-##### "Client" service database screenshot
-![MySQL Database for Service-Client](./screens/database_mysql.png)
-
-##### HTTP Requests
-![HTTP Request](./screens/voiture_1.png)
-![HTTP Request](./screens/voiture_2.png)
